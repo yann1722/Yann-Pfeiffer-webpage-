@@ -1,1 +1,45 @@
-<h1>our first hucbndoks l</h1>
+
+
+<div class="carousel">
+  <button class="carousel_button carousel_button--right">
+    <i class="fas fa-arrow-right"></i>
+  </button>
+  <div class="carousel_track-container">
+    <ul class="carousel_track">
+      <li class="carouselslide">
+        <%= image_tag "yannputt.jpeg" %>
+      </li>
+      <li class="carouselslide">
+        <%= image_tag "yannback.jpeg" %>
+      </li>
+      <li class="carouselslide">
+        <%= image_tag "yannfinish.jpeg" %>
+      </li>
+    </ul>
+  </div>
+  <button class="carousel_button carousel_button--left">
+    <i class="fas fa-arrow-left"></i>
+  </button>
+</div>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <%= image_tag "yannputt.jpeg" %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag "yannback.jpeg" %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag "yannfinish.jpeg" %>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
