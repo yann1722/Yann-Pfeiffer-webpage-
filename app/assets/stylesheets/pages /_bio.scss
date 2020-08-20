@@ -1,0 +1,36 @@
+.bio-img {
+  height: 100%;
+  position: sticky;
+  top: 0;
+
+}
+
+h2{
+  text-align: center ;
+  padding: 16px;
+  margin: 16px;
+  font-weight: bold;
+  font: 24px;
+}
+
+p {
+  margin: 16px;
+  color: black;
+  font-family: helvetica;
+}
+
+li {
+  margin: 16px;
+  color: black;
+  font-family: helvetica;
+  font-size: 24px;
+}
+
+.story {
+  display: block;
+  padding: 1em;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+
