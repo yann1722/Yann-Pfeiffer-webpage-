@@ -1,5 +1,7 @@
-img {
-   max-height: 100%;
+.bio-img {
+  height: 100%;
+  position: sticky;
+  top: 0;
 
 }
 
@@ -13,9 +15,22 @@ h2{
 
 p {
   margin: 16px;
-  color: #6A8BB4;
+  color: black;
+  font-family: helvetica;
 }
 
-image_tag {
-  max-height: 100%;
+li {
+  margin: 16px;
+  color: black;
+  font-family: helvetica;
+  font-size: 24px;
 }
+
+.story {
+  display: block;
+  padding: 1em;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+
