@@ -1,13 +1,12 @@
 .card {
   background: white;
-  opacity: 70%;
   font: black;
   margin:16px;
   padding:16px;
   font-size: !important 16px;
-  border-radius: 12px;
   box-shadow: 8px 8px 0px #aaa;
   height:100px;
+  border-radius: !important 1.25rem;
 
 }
 
@@ -32,7 +31,7 @@ height: 100%;
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .banner h1 {
@@ -48,5 +47,22 @@ height: 100%;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.cardopac {
+  height: 320px;
+  width: 500px;
+  margin:16px;
+  padding:16px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: 1100px;
+  border-radius: 5%;
+}
+
+#specific {
+  font-weight: bold;
+  color: #6A8BB4;
+  font-size: 32px;
+  text-align: center;
 }
 
